@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0.0" y="0.0" width="600.0"
+             height="800.0" borderSize="0.0" borderRadius="0.0"/>
+  <Component type="ScriptImage" id="bgLeftSection" x="10.0" y="200.0" width="150.0"
+             height="250.0" fileName="{PROJECT_FOLDER}Intellimenu.png"/>
+  <Component type="ScriptSlider" id="knbVerb" x="130.0" y="130.0" filmstripImage="{PROJECT_FOLDER}RingFinal.png"
+             width="350.0" height="350.0" stepSize="1.0" max="10.0" numStrips="10.0"/>
+  <Component type="ScriptSlider" id="intelliVerb" x="130.0" y="130.0" width="350.0"
+             height="350.0" numStrips="10.0" filmstripImage="{PROJECT_FOLDER}IntelFinalRing.png"
+             visible="0"/>
+  <Component type="ScriptSlider" id="knob1" x="60.0" y="350.0" width="50.0"
+             height="50.0" text="AWARENESS"/>
+  <Component type="ScriptButton" id="btnIntelliOnOff" x="20.0" y="320.0" width="20.0"
+             height="20.0" text="" filmstripImage="{PROJECT_FOLDER}IntelliOffOn.png"/>
+  <Component type="ScriptSlider" id="Knob2" x="510.0" y="230.0" width="50.0"
+             height="50.0" text="BLEND"/>
+  <Component type="ScriptSlider" id="Knob3" x="510.0" y="360.0" width="50.0"
+             height="50.0" text="BIGNESS"/>
+  <Component type="ScriptLabel" id="lbVerberv" x="160.0" y="40.0" text="VERBERV"
+             fontName="Actay Wide" fontSize="44.0" width="300.0" height="50.0"
+             fontStyle="Regular" editable="0" textColour="519764470"/>
+  <Component type="ScriptLabel" id="lbIntelliVerb" x="35.0" y="320.0" width="120.0"
+             height="20.0" text="INTELLIVERB" fontName="Actay Wide" editable="0"
+             fontSize="14.0" textColour="1610283510"/>
+  <Component type="ScriptLabel" id="lbPredelay" x="25.0" y="210.0" width="120.0"
+             height="20.0" text="PREDELAY" fontName="Actay Wide" editable="0"
+             fontSize="14.0" textColour="1610283510"/>
+  <Component type="ScriptImage" id="bgPredelay" x="20.0" y="250.0" width="130.0"
+             height="40.0" fileName="{PROJECT_FOLDER}predelSelect.png"/>
+  <Component type="ScriptButton" id="btnPluPredelay" x="125.0" y="255.0" width="10.0"
+             height="10.0" filmstripImage="{PROJECT_FOLDER}PlusOffOn.png"
+             isMomentary="1"/>
+  <Component type="ScriptButton" id="btnMinusPredelay" x="125.0" y="275.0"
+             width="10.0" height="10.0" filmstripImage="{PROJECT_FOLDER}minusOFFON.png"
+             isMomentary="1"/>
+  <Component type="ScriptLabel" id="lbPredelayTempo" x="30.0" y="260.0" width="50.0"
+             height="20.0" text="1/1" fontName="Actay Wide" editable="0" fontSize="14.0"
+             textColour="4294638070" alignment="left"/>
+  <Component type="ScriptButton" id="btnInsta" x="560.0" y="560.0" width="20.0"
+             height="20.0" isMomentary="1" filmstripImage="{PROJECT_FOLDER}InstaOFF.png"/>
+  <Component type="ScriptLabel" id="Label1" x="35.0" y="410.0" width="100.0"
+             height="20.0" fontName="Actay Wide" text="AWARENESS"/>
+  <Component type="ScriptLabel" id="Label2" x="485.0" y="290.0" width="100.0"
+             height="20.0" text="BLEND" fontName="Actay Wide"/>
+  <Component type="ScriptLabel" id="Label3" x="485.0" y="420.0" width="100.0"
+             height="20.0" text="BIGNESS" fontName="Actay Wide"/>
+  <Component type="ScriptPanel" id="Panel2" x="0.0" y="0.0" borderRadius="0.0"
+             borderSize="0.0" width="600.0" height="600.0" itemColour2="0"
+             itemColour="0" enabled="0"/>
+  <Component type="ScriptPanel" id="Panel3" x="200.0" y="500.0" width="200"
+             height="50" bgColour="0" itemColour="0" itemColour2="0" textColour="0"/>
+</ContentProperties>

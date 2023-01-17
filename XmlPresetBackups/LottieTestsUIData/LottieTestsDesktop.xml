@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0.0" y="0.0" width="600" height="600"/>
+  <Component type="ScriptSlider" id="Knob1" x="0.0" y="0.0" width="150" height="40"
+             max="120.0" stepSize="1.0"/>
+</ContentProperties>

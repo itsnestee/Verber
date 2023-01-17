@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Panel1" x="0.0" y="0.0" width="600.0"
+             height="600.0" borderSize="0.0" borderRadius="0.0"/>
+  <Component type="ScriptPanel" id="Panel3" x="140.0" y="130.0" width="350.0"
+             height="350.0" borderSize="0.0" borderRadius="0.0" bgColour="0"
+             itemColour="0" itemColour2="0" textColour="0"/>
+  <Component type="ScriptButton" id="btnIntelliOnOff" x="20.0" y="360.0" width="20.0"
+             height="20.0" text="" tooltip="Activate Ducking" filmstripImage="{PROJECT_FOLDER}IntelliOffOn.png"/>
+  <Component type="ScriptSlider" id="Knob2" x="510.0" y="360.0" width="50.0"
+             height="50.0" text="DRY/WET" tooltip="Amount of wet reverb over the dry signal"
+             middlePosition="50.0" suffix="%" showValuePopup="Above" max="100.0"
+             stepSize="1.0"/>
+  <Component type="ScriptSlider" id="Knob3" x="510.0" y="230.0" width="50.0"
+             height="50.0" text="BIGNESS" tooltip="Size of the space" middlePosition="50.0"
+             suffix="%" showValuePopup="Above" stepSize="1.0" max="100.0"/>
+  <Component type="ScriptLabel" id="lbVerberv" x="150.0" y="40.0" text="VERBER"
+             fontName="Actay Wide" fontSize="44.0" width="300.0" height="50.0"
+             fontStyle="Regular" editable="0" textColour="4294638070" enabled="0"
+             visible="0"/>
+  <Component type="ScriptLabel" id="lbIntelliVerb" x="35.0" y="360.0" width="100.0"
+             height="20.0" text="DUCKING" fontName="Actay Wide" editable="0"
+             fontSize="14.0" textColour="1610283510"/>
+  <Component type="ScriptLabel" id="lbPredelay" x="25.0" y="220.0" width="120.0"
+             height="20.0" text="PREDELAY" fontName="Actay Wide" editable="0"
+             fontSize="14.0" textColour="1610283510"/>
+  <Component type="ScriptImage" id="bgPredelay" x="20.0" y="250.0" width="130.0"
+             height="40.0" fileName="{PROJECT_FOLDER}predelSelect.png"/>
+  <Component type="ScriptButton" id="btnPluPredelay" x="125.0" y="255.0" width="10.0"
+             height="10.0" filmstripImage="{PROJECT_FOLDER}PlusOffOn.png"
+             isMomentary="1"/>
+  <Component type="ScriptButton" id="btnMinusPredelay" x="125.0" y="275.0"
+             width="10.0" height="10.0" filmstripImage="{PROJECT_FOLDER}minusOFFON.png"
+             isMomentary="1"/>
+  <Component type="ScriptLabel" id="lbPredelayTempo" x="30.0" y="260.0" width="50.0"
+             height="20.0" text="None" fontName="Actay Wide" editable="0"
+             fontSize="14.0" textColour="4294638070" alignment="left"/>
+  <Component type="ScriptButton" id="btnInsta" x="560.0" y="560.0" width="20.0"
+             height="20.0" isMomentary="1" filmstripImage="{PROJECT_FOLDER}InstaOFF.png"/>
+  <Component type="ScriptLabel" id="Label1" x="35.0" y="410.0" width="100.0"
+             height="20.0" fontName="Actay Wide" text="AMOUNT" visible="0"
+             enabled="0"/>
+  <Component type="ScriptLabel" id="Label2" x="485.0" y="420.0" width="100.0"
+             height="20.0" text="DRY / WET" fontName="Actay Wide" bgColour="14225327"/>
+  <Component type="ScriptLabel" id="Label3" x="485.0" y="290.0" width="100.0"
+             height="20.0" text="BIGNESS" fontName="Actay Wide"/>
+  <Component type="ScriptPanel" id="Panel2" x="0.0" y="0.0" borderRadius="0.0"
+             borderSize="0.0" width="600.0" height="600.0" itemColour2="0"
+             itemColour="0" enabled="0"/>
+  <Component type="ScriptImage" id="bgDucking" x="20.0" y="390.0" width="130.0"
+             height="40.0" fileName="{PROJECT_FOLDER}predelSelect.png" tooltip="Amount of ducking of the signal"/>
+  <Component type="ScriptButton" id="btnPluDucking" x="125.0" y="395.0" width="10.0"
+             height="10.0" filmstripImage="{PROJECT_FOLDER}PlusOffOn.png"
+             isMomentary="1" tooltip="Amount of ducking on the signal"/>
+  <Component type="ScriptButton" id="btnMinusDucking" x="125.0" y="415.0"
+             width="10.0" height="10.0" filmstripImage="{PROJECT_FOLDER}minusOFFON.png"
+             isMomentary="1" tooltip="Amount of ducking on the signal"/>
+  <Component type="ScriptLabel" id="lbduckingAmount" x="30.0" y="400.0" width="50.0"
+             height="20.0" text="1X" fontName="Actay Wide" editable="0" fontSize="14.0"
+             textColour="4294638070" alignment="left" tooltip="Amount of ducking of the signal"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="155.0" y="155.0"
+             width="290.0" height="290.0" ContentType="AudioAnalyser" bgColour="4279374354"
+             itemColour="4294638070" itemColour2="1184274" textColour="0"
+             Data="{&#10;  &quot;ProcessorId&quot;: &quot;Analyser1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+</ContentProperties>
