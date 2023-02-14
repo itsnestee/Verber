@@ -1,5 +1,8 @@
-VERBER 
+# VERBER 
 
-This plugin's main function is to add a reverb effect, with the added benefit of dynamic ducking. This eliminates the need for sidechain compression on the audio bus and has been very helpful to me in achieving a well-spaced reverb effect quickly.
+This plugin's a reverb effect, with the added benefit of dynamic ducking. This eliminates the need for sidechain compression on the audio bus.
 
+/Users/nesta99/Documents/Nestee/Brand/Marketing/VERBER Media/Website/Screenshot 2023-01-22 at 18.18.15.png
+
+## Release Versions
 Verber is available as VST3 and AU for Windows and Mac architecture.
